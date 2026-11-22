@@ -3,11 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Glimmerwood · Support</title>
+<title>Glimmerwood · Support / Soporte / Assistance / 支持</title>
 <style>
   :root { color-scheme: light; }
-  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-         line-height: 1.7; color: #1c1c1e; background: #f5f5f7; margin: 0; padding: 24px; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, sans-serif;
+         line-height: 1.75; color: #1c1c1e; background: #f5f5f7; margin: 0; padding: 24px; }
   .card { max-width: 720px; margin: 0 auto; background: #fff; border-radius: 16px; padding: 32px 28px;
           box-shadow: 0 2px 16px rgba(0,0,0,0.06); }
   h1 { font-size: 24px; margin: 0 0 4px; }
@@ -16,28 +16,78 @@
   p, li { font-size: 15px; color: #3a3a3c; }
   ul { padding-left: 22px; }
   a { color: #007aff; }
-  .nav { padding-bottom: 20px; border-bottom: 1px solid #e5e5ea; margin-bottom: 28px; font-size: 14px; }
-  .nav a { text-decoration: none; background: #f2f2f7; padding: 6px 12px; border-radius: 999px; color: #3a3a3c; }
-  .nav a:hover { background: #e5e5ea; }
-  code { background: #f2f2f7; padding: 1px 5px; border-radius: 4px; font-size: 13px; }
-  footer { margin-top: 36px; padding-top: 18px; border-top: 1px solid #e5e5ea;
-           font-size: 13px; color: #6e6e73; }
+  .lang-nav { display: flex; flex-wrap: wrap; gap: 8px; padding: 0 0 20px;
+              border-bottom: 1px solid #e5e5ea; margin-bottom: 28px; }
+  .lang-nav a { text-decoration: none; font-size: 13px; color: #3a3a3c;
+                background: #f2f2f7; padding: 6px 12px; border-radius: 999px; }
+  .lang-nav a:hover { background: #e5e5ea; }
+  .lang { padding-top: 4px; }
+  .lang + .lang { border-top: 1px solid #e5e5ea; margin-top: 44px; padding-top: 8px; }
+  :target { scroll-margin-top: 16px; }
+  footer.note { color: #6e6e73; font-size: 13px; margin-top: 36px; padding-top: 18px;
+                border-top: 1px solid #e5e5ea; }
   @media (min-width: 700px) {
     body { padding: 40px 24px; }
     .card { max-width: 840px; padding: 44px 48px; }
     h1 { font-size: 30px; }
     h2 { font-size: 20px; margin: 34px 0 10px; }
+    .meta { font-size: 15px; }
     p, li { font-size: 17px; }
+    .lang-nav a { font-size: 14px; padding: 8px 14px; }
   }
 </style>
 </head>
 <body>
 <div class="card">
 
-<div class="nav"><a href="index.html#en">Privacy Policy</a>　<a href="index.html#es">Español</a>　<a href="index.html#fr">Français</a>　<a href="index.html#zh">简体中文</a>　<a href="support-zh.html">中文支持</a></div>
+<nav class="lang-nav">
+  <a href="#zh">简体中文</a>
+  <a href="#en">English</a>
+  <a href="#es">Español</a>
+  <a href="#fr">Français</a>
+</nav>
 
+<!-- ============ 简体中文 ============ -->
+<section class="lang" id="zh" lang="zh-CN">
+<h1>萤火密林 · 支持</h1>
+<p class="meta">版本 1.1 · 2026 年 11 月</p>
+
+<p>萤火密林是一款完全离线、安静的逻辑解谜游戏。这里整理了最常见的问题；如果没有找到答案，可以直接发邮件给我们。</p>
+
+<h2>怎么玩？</h2>
+<p>在每一行、每一列、每一个彩色区域里各放一只萤火虫，并让任意两只都不相邻（斜角相贴也不行）。规则就这么多。首次启动会有一段交互式引导，之后也能随时在「设置 → 玩法说明」里重看。</p>
+
+<h2>棋盘上的手势是什么？</h2>
+<ul>
+  <li><strong>单击</strong>：把格子标记为排除（再点一次取消标记）。</li>
+  <li><strong>双击</strong>：放下一只萤火虫。</li>
+  <li><strong>滑动</strong>：一次标记多个格子。</li>
+  <li><strong>撤销</strong> 与 <strong>提示</strong> 在底部工具条。</li>
+</ul>
+
+<h2>每晚的萤火是什么？</h2>
+<p>「今晚的萤火」是每天一道题，全球同一道。在首页点那张卡片就能进入。最佳用时、连续天数和完成次数会保存在本机，题目不会上锁，随时可以重玩或稍后再来。</p>
+
+<h2>需要账号或联网吗？</h2>
+<p>不需要。萤火密林没有账号、不发起任何网络请求，所有题目都随 App 内置，完全离线可玩。没有广告、没有内购，也不会推送通知。</p>
+
+<h2>进度会丢吗？</h2>
+<p>关卡进度、星级、主题与偏好都保存在本机系统存储里，只要 App 还在就会保留，卸载时一并清除。没有云同步，也没有任何数据离开设备。想清空可以「设置 → 重置进度」。</p>
+
+<h2>支持哪些设备和语言？</h2>
+<p>iPhone 与 iPad，需 iOS 17 或更高版本。界面提供简体中文、English、Español、Français 四种语言，跟随系统语言设置。</p>
+
+<h2>遇到问题怎么办？</h2>
+<p>麻烦告诉我们设备型号、iOS 版本、你预期的行为和实际发生的情况，附上截图会更快。也可以先试试彻底退出 App 后重新打开。</p>
+
+<h2>联系我们</h2>
+<p>邮箱：<a href="mailto:revenlvxin@gmail.com">revenlvxin@gmail.com</a>。隐私政策：<a href="index.html#zh">简体中文</a> / <a href="index.html#en">English</a> / <a href="index.html#es">Español</a> / <a href="index.html#fr">Français</a>。</p>
+</section>
+
+<!-- ============ English ============ -->
+<section class="lang" id="en" lang="en">
 <h1>Glimmerwood · Support</h1>
-<p class="meta">Version 1.0 · November 2026</p>
+<p class="meta">Version 1.1 · November 2026</p>
 
 <p>Glimmerwood is a quiet, offline logic puzzle about placing fireflies in a night forest. This page answers the questions we hear most often. If something isn't covered here, email us and we'll help.</p>
 
@@ -59,7 +109,7 @@
 <p>No. Glimmerwood has no account, makes no network requests, and all puzzles ship inside the app. It works completely offline. There are no ads, no in-app purchases, and no notifications.</p>
 
 <h2>Will I lose my progress?</h2>
-<p>Progress, stars, themes and preferences are stored locally on your device using system storage. They stay there as long as the app is installed and are removed when you delete the app. There is no cloud sync and no data leaves your device.</p>
+<p>Progress, stars, themes and preferences are stored locally on your device using system storage. They stay there as long as the app is installed and are removed when you delete the app. There is no cloud sync and no data leaves your device. You can clear them with <strong>Settings &rarr; Reset Progress</strong>.</p>
 
 <h2>Which devices and languages are supported?</h2>
 <p>iPhone and iPad, iOS 17 or later. The app interface is available in English, Spanish, French and Simplified Chinese, and follows your device language setting.</p>
@@ -68,10 +118,84 @@
 <p>Tell us which device and iOS version you're using, what you expected, and what happened instead. A screenshot helps. Please also check whether force-quitting and reopening the app resolves it.</p>
 
 <h2>Contact</h2>
-<p>Email: <a href="mailto:revenlvxin@gmail.com">revenlvxin@gmail.com</a></p>
-<p>Privacy: <a href="index.html#en">Glimmerwood Privacy Policy</a></p>
+<p>Email: <a href="mailto:revenlvxin@gmail.com">revenlvxin@gmail.com</a>. Privacy Policy: <a href="index.html#en">English</a> / <a href="index.html#zh">简体中文</a> / <a href="index.html#es">Español</a> / <a href="index.html#fr">Français</a>.</p>
+</section>
 
-<footer>&copy; 2026 Xin Lv · Glimmerwood</footer>
+<!-- ============ Español ============ -->
+<section class="lang" id="es" lang="es">
+<h1>Glimmerwood · Soporte</h1>
+<p class="meta">Versión 1.1 · noviembre de 2026</p>
+
+<p>Glimmerwood es un juego de lógica tranquilo que funciona sin conexión: se trata de colocar luciérnagas en un bosque nocturno. Aquí reunimos las preguntas más habituales. Si no encuentras la respuesta, escríbenos y te ayudaremos.</p>
+
+<h2>¿Cómo se juega?</h2>
+<p>Coloca una luciérnaga en cada fila, en cada columna y en cada región de color de la cuadrícula. Dos luciérnagas no pueden tocarse, ni siquiera en diagonal. Esa es toda la regla. Al abrir la app por primera vez aparece una guía interactiva breve, y puedes volver a verla cuando quieras en <strong>Ajustes &rarr; Cómo jugar</strong>.</p>
+
+<h2>¿Qué gestos se usan en el tablero?</h2>
+<ul>
+  <li><strong>Un toque</strong> marca una casilla como descartada (otro toque quita la marca).</li>
+  <li><strong>Doble toque</strong> coloca una luciérnaga.</li>
+  <li><strong>Deslizar</strong> marca varias casillas a la vez.</li>
+  <li><strong>Deshacer</strong> y <strong>Pista</strong> están en la barra inferior.</li>
+</ul>
+
+<h2>¿Qué es el puzzle nocturno?</h2>
+<p>«Las luciérnagas de esta noche» es un puzzle al día, el mismo para todo el mundo. Toca su tarjeta en la pantalla de inicio. Tu mejor tiempo, tu racha y el número de completados se guardan en el dispositivo. Nunca se bloquea, así que puedes repetirlo o volver más tarde.</p>
+
+<h2>¿Necesito una cuenta o conexión a internet?</h2>
+<p>No. Glimmerwood no tiene cuentas, no realiza peticiones de red y todos los puzzles vienen incluidos en la app. Funciona completamente sin conexión. No hay anuncios, ni compras dentro de la app, ni notificaciones.</p>
+
+<h2>¿Perderé mi progreso?</h2>
+<p>El progreso, las estrellas, los temas y las preferencias se guardan localmente en el dispositivo mediante el almacenamiento del sistema. Permanecen mientras la app esté instalada y se eliminan al borrarla. No hay sincronización en la nube ni ningún dato sale del dispositivo. Puedes borrarlos en <strong>Ajustes &rarr; Restablecer progreso</strong>.</p>
+
+<h2>¿Qué dispositivos e idiomas son compatibles?</h2>
+<p>iPhone y iPad con iOS 17 o posterior. La interfaz está disponible en inglés, español, francés y chino simplificado, y sigue el idioma configurado en el dispositivo.</p>
+
+<h2>Algo no funciona, ¿qué hago?</h2>
+<p>Cuéntanos el modelo de dispositivo, la versión de iOS, qué esperabas y qué ocurrió en su lugar. Una captura de pantalla ayuda. Comprueba también si cerrar la app por completo y volver a abrirla lo resuelve.</p>
+
+<h2>Contacto</h2>
+<p>Correo: <a href="mailto:revenlvxin@gmail.com">revenlvxin@gmail.com</a>. Política de privacidad: <a href="index.html#es">Español</a> / <a href="index.html#en">English</a> / <a href="index.html#fr">Français</a> / <a href="index.html#zh">简体中文</a>.</p>
+</section>
+
+<!-- ============ Français ============ -->
+<section class="lang" id="fr" lang="fr">
+<h1>Glimmerwood · Assistance</h1>
+<p class="meta">Version 1.1 · novembre 2026</p>
+
+<p>Glimmerwood est un jeu de logique calme, entièrement hors ligne, où l'on place des lucioles dans une forêt nocturne. Cette page réunit les questions les plus fréquentes. Si vous n'y trouvez pas votre réponse, écrivez-nous et nous vous aiderons.</p>
+
+<h2>Comment jouer ?</h2>
+<p>Placez une luciole dans chaque ligne, chaque colonne et chaque région colorée de la grille. Deux lucioles ne doivent jamais se toucher, même en diagonale. C'est toute la règle. Un guide interactif apparaît au premier lancement, et vous pouvez le revoir à tout moment dans <strong>Réglages &rarr; Comment jouer</strong>.</p>
+
+<h2>Quels sont les gestes sur la grille ?</h2>
+<ul>
+  <li><strong>Un simple toucher</strong> marque une case comme exclue (un second toucher annule la marque).</li>
+  <li><strong>Un double toucher</strong> place une luciole.</li>
+  <li><strong>Un glissement</strong> marque plusieurs cases d'un coup.</li>
+  <li><strong>Annuler</strong> et <strong>Indice</strong> se trouvent dans la barre inférieure.</li>
+</ul>
+
+<h2>Qu'est-ce que le puzzle du soir ?</h2>
+<p>« Les lucioles de ce soir » est un puzzle par jour, identique pour tout le monde. Touchez sa carte sur l'écran d'accueil. Votre meilleur temps, votre série et votre nombre de parties terminées sont enregistrés sur l'appareil. Le puzzle n'est jamais verrouillé : vous pouvez le rejouer ou revenir plus tard.</p>
+
+<h2>Faut-il un compte ou une connexion Internet ?</h2>
+<p>Non. Glimmerwood ne demande aucun compte, n'effectue aucune requête réseau et tous les puzzles sont fournis avec l'app. Elle fonctionne entièrement hors ligne. Il n'y a ni publicité, ni achat intégré, ni notification.</p>
+
+<h2>Vais-je perdre ma progression ?</h2>
+<p>La progression, les étoiles, les thèmes et les préférences sont conservés localement sur votre appareil via le stockage système. Ils restent tant que l'app est installée et sont supprimés avec elle. Aucune synchronisation dans le cloud, aucune donnée ne quitte l'appareil. Vous pouvez les effacer dans <strong>Réglages &rarr; Réinitialiser la progression</strong>.</p>
+
+<h2>Quels appareils et quelles langues sont pris en charge ?</h2>
+<p>iPhone et iPad sous iOS 17 ou version ultérieure. L'interface est disponible en anglais, en espagnol, en français et en chinois simplifié, et suit la langue configurée sur l'appareil.</p>
+
+<h2>Un problème persiste, que faire ?</h2>
+<p>Indiquez-nous le modèle d'appareil, la version d'iOS, le comportement attendu et celui observé. Une capture d'écran est utile. Vérifiez aussi si quitter complètement l'app puis la rouvrir résout le problème.</p>
+
+<h2>Nous contacter</h2>
+<p>Adresse : <a href="mailto:revenlvxin@gmail.com">revenlvxin@gmail.com</a>. Politique de confidentialité : <a href="index.html#fr">Français</a> / <a href="index.html#en">English</a> / <a href="index.html#es">Español</a> / <a href="index.html#zh">简体中文</a>.</p>
+</section>
+
+<footer class="note">© 2026 Xin Lv · Glimmerwood / 萤火密林 · Support · Version 1.1 · <a href="index.html">Privacy Policy</a></footer>
 
 </div>
 </body>
