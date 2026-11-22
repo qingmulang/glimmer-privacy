@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>萤火密林 · 隐私政策 / Glimmerwood Privacy Policy</title>
+<title>萤火密林 · 隐私政策 / Glimmerwood Privacy Policy / Política de Privacidad / Politique de Confidentialité</title>
 <style>
   :root { color-scheme: light; }
   body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
@@ -24,6 +24,9 @@
   .lang { padding-top: 4px; }
   .lang + .lang { border-top: 1px solid #e5e5ea; margin-top: 44px; padding-top: 8px; }
   :target { scroll-margin-top: 16px; }
+  code { background: #f2f2f7; padding: 1px 5px; border-radius: 4px; font-size: 13px; }
+  footer.note { color: #6e6e73; font-size: 13px; margin-top: 36px; padding-top: 18px;
+                border-top: 1px solid #e5e5ea; }
   @media (min-width: 700px) {
     body { padding: 40px 24px; }
     .card { max-width: 840px; padding: 44px 48px; }
@@ -41,93 +44,228 @@
 <nav class="lang-nav">
   <a href="#zh">简体中文</a>
   <a href="#en">English</a>
+  <a href="#es">Español</a>
+  <a href="#fr">Français</a>
+  <a href="support-zh.html">支持 / Support</a>
 </nav>
 
 <!-- ============ 简体中文 ============ -->
-<section class="lang" id="zh">
+<section class="lang" id="zh" lang="zh-CN">
 <h1>萤火密林 · 隐私政策</h1>
-<p class="meta">生效日期：2026 年 11 月 21 日 · 更新日期：2026 年 11 月 21 日</p>
+<p class="meta">生效日期：2026 年 11 月 21 日 · 更新日期：2026 年 11 月 23 日 · 版本 1.1</p>
 
-<p>“萤火密林”（Glimmerwood，以下简称“本应用”）由个人开发者 qingmulang 提供。我们深知隐私的重要性，本政策说明本应用如何处理你的信息。简而言之：<strong>本应用不收集、不上传、不共享你的任何个人数据，也不需要联网；全部数据仅保存在你的设备本地。</strong></p>
+<p>“萤火密林”（Glimmerwood，以下简称“本应用”）由个人开发者 Xin Lv（GitHub：qingmulang）提供，该开发者同时为本政策的数据控制者。我们深知隐私的重要性，本政策说明本应用如何处理你的信息。简而言之：<strong>本应用不收集、不上传、不共享你的任何个人数据，也不需要联网；全部数据仅保存在你的设备本地。</strong></p>
 
 <h2>1. 我们收集哪些信息</h2>
 <p><strong>我们不收集任何个人信息。</strong>本应用没有账号体系、没有网络请求、没有第三方 SDK、没有广告、也没有数据分析或追踪。具体而言：</p>
 <ul>
   <li><strong>无需注册登录</strong>：不收集姓名、邮箱、电话或任何身份信息。</li>
-  <li><strong>无网络连接</strong>：所有谜题都随安装包提供，应用完全离线运行，不会向任何服务器发送数据。</li>
-  <li><strong>无追踪与广告</strong>：不使用任何广告标识符（IDFA）、不跨应用追踪、不接入分析或广告 SDK。</li>
+  <li><strong>无网络连接</strong>：所有 950 道谜题都随安装包提供，应用完全离线运行，不会向任何服务器发送数据。</li>
+  <li><strong>无追踪与广告</strong>：不使用任何广告标识符（IDFA）、不跨应用追踪、不接入分析或广告 SDK，也不读取设备标识符或 IP 地址。</li>
 </ul>
 
 <h2>2. 设备上保存的数据</h2>
-<p>为了记录你的游玩进度，本应用会在你的设备本地保存少量数据，这些数据<strong>永远不会离开你的设备</strong>：</p>
+<p>为了记录你的游玩进度，本应用会在你的设备本地保存少量数据，这些数据<strong>永远不会由本应用上传或离开你的设备</strong>：</p>
 <ul>
   <li><strong>游玩进度</strong>：已获得的星级、解锁进度、完成标记，用于你继续游玩与显示完成状态。</li>
   <li><strong>每日题记录</strong>：最佳用时、连续天数与完成次数，用于“今晚的萤火”每日挑战。</li>
-  <li><strong>偏好设置</strong>：主题（夜色 / 薄暮）、音效开关，以及你在初次进入时填写的故乡名。</li>
+  <li><strong>偏好设置</strong>：主题（夜色 / 薄暮）、音效开关、触感反馈开关，以及你在初次进入时自愿填写的故乡名。故乡名只是一段用于游戏叙事的文字，我们不会用它推断你的真实位置。</li>
 </ul>
-<p>以上数据通过系统提供的本地存储机制（UserDefaults）保存，仅用于本应用内的体验。你卸载应用时，这些数据会随应用一并被系统删除。</p>
+<p>以上数据通过系统提供的本地存储机制（UserDefaults）保存，仅用于本应用内的体验。<strong>保留期限即你保留本应用的时间</strong>：你可以在「设置 → 重置进度」主动清空星级与解锁进度，可以随时在设置中修改偏好；卸载应用时，全部本地数据会随应用一并被系统删除。我们没有云端副本，也无法替你恢复这些数据。</p>
 
 <h2>3. 崩溃诊断</h2>
-<p>本应用<strong>不集成任何第三方崩溃或分析 SDK</strong>，不会主动收集你的崩溃记录或设备信息。Apple 的 App Store 可能依据你设备的“分析与改进”设置，向开发者提供匿名的系统级崩溃统计；这类数据由 Apple 汇总提供，本应用无法读取你的个人信息。</p>
+<p>本应用<strong>不集成任何第三方崩溃或分析 SDK</strong>，不会主动收集你的崩溃记录或设备信息。Apple 可能依据你设备的「分析与改进」设置，向开发者提供匿名的系统级崩溃统计；这类数据由 Apple 汇总提供，本应用无法读取你的个人信息。你随时可以在 iOS「设置 → 隐私与安全性 → 分析与改进」中关闭共享。</p>
 
 <h2>4. 儿童隐私</h2>
-<p>本应用面向包括儿童在内的各年龄用户，是一款安静的单人逻辑解谜游戏。我们不收集任何年龄用户的个人信息，不展示广告，也不进行追踪。我们遵守适用的儿童隐私保护法规（如 COPPA、《儿童个人信息网络保护规定》等）。</p>
+<p>本应用是一款安静的单人逻辑解谜游戏，适合各年龄用户，但<strong>不专门面向儿童</strong>，也不设置面向儿童的账号或社交功能。我们不收集任何年龄用户的个人信息，不展示广告，不进行追踪，也不包含应用内购买。我们遵守适用的儿童隐私保护法规，包括美国 COPPA、欧盟 GDPR 关于儿童同意的规定（GDPR-K）以及《儿童个人信息网络保护规定》。</p>
 
-<h2>5. 第三方服务</h2>
-<p>本应用不集成任何第三方 SDK、广告平台、社交登录、支付或数据分析服务，也不包含任何外链或网络内容。</p>
+<h2>5. 第三方服务与由你发起的操作</h2>
+<p>本应用不集成任何第三方 SDK、广告平台、社交登录、支付、数据分析服务，也不会自动访问任何网络内容。有两处由<strong>你主动发起</strong>的系统功能需要说明：</p>
+<ul>
+  <li><strong>分享</strong>：通关结算页的「分享」会调起 iOS 系统分享面板，由你决定是否分享、分享给谁。分享图片在设备本地生成，我们不经手、不留存。</li>
+  <li><strong>意见反馈</strong>：设置里的「意见反馈」会打开系统邮件应用，邮件是否发送由你决定。我们不会自动读取或收集邮件内容。</li>
+</ul>
+<p>除上述由你主动发起的操作外，本应用不会把任何数据交给第三方。</p>
 
-<h2>6. 权限与深链</h2>
-<p>本应用不申请相机、麦克风、定位、通讯录、通知等权限。应用支持 <code>glimmerwood://</code> 深链，仅用于应用内部页面跳转（如从分享卡进入某一关），不涉及任何数据传输。</p>
+<h2>6. 你的权利与法律依据</h2>
+<p>由于我们不收集任何个人数据，不存在以我们为控制者的数据处理活动，因此也无需依赖同意或其他合法性基础。保存在设备上的数据完全由你掌控：查看、修改、删除都可以在应用内完成（见第 2 节），卸载应用即等于删除全部数据。若你希望我们就本地数据提供协助，或认为自己的权利受到影响，可通过第 10 节的邮箱联系我们；你也有权向所在国家或地区的数据保护监管机构提出投诉。</p>
 
-<h2>7. 政策更新</h2>
-<p>若未来本应用的功能发生变化导致数据处理方式改变，我们会更新本政策并注明新的生效日期。当前版本下，我们不收集任何数据。</p>
+<h2>7. 数据传输、画像与自动化决策</h2>
+<p>本地数据不会上传、不会跨境传输，也不会与任何第三方共享。我们不进行用户画像、自动化决策或广告定向，也不存在基于自动处理的、对你产生法律效力的决定。</p>
 
-<h2>8. 联系我们</h2>
-<p>如对本隐私政策有任何疑问，可通过邮箱 <a href="mailto:revenlvxin@gmail.com">revenlvxin@gmail.com</a> 与我们联系。</p>
+<h2>8. 权限与深链</h2>
+<p>本应用不申请相机、麦克风、定位、通讯录、相册、通知等权限。应用支持 <code>glimmerwood://</code> 深链，仅用于应用内部页面跳转（如从分享卡进入某一关），不涉及任何数据传输。</p>
+
+<h2>9. 政策更新</h2>
+<p>若未来本应用的功能发生变化导致数据处理方式改变，我们会更新本政策并注明新的生效日期。当前版本下，我们不收集任何数据。本政策提供简体中文、English、Español、Français 四种语言版本，内容一致；如不同语言版本的理解存在差异，以英文版为准。</p>
+
+<h2>10. 联系我们</h2>
+<p>数据控制者：个人开发者 Xin Lv（GitHub：qingmulang）。如对本隐私政策或你的数据有任何疑问，可通过邮箱 <a href="mailto:revenlvxin@gmail.com">revenlvxin@gmail.com</a> 联系我们。支持页面：<a href="support-zh.html">简体中文</a> / <a href="support.html">English</a>。</p>
 </section>
 
 <!-- ============ English ============ -->
-<section class="lang" id="en">
+<section class="lang" id="en" lang="en">
 <h1>Glimmerwood · Privacy Policy</h1>
-<p class="meta">Effective: November 21, 2026 · Last updated: November 21, 2026</p>
+<p class="meta">Effective: November 21, 2026 · Last updated: November 23, 2026 · Version 1.1</p>
 
-<p>"Glimmerwood" (the "App") is provided by individual developer qingmulang. We take your privacy seriously. In short: <strong>the App does not collect, transmit, or share any of your personal data, and does not require an internet connection. All data stays locally on your device.</strong></p>
+<p>"Glimmerwood" (the "App") is provided by individual developer Xin Lv (GitHub: qingmulang), who is also the data controller for this policy. We take your privacy seriously. In short: <strong>the App does not collect, transmit, or share any of your personal data, and does not require an internet connection. All data stays locally on your device.</strong></p>
 
 <h2>1. Information We Collect</h2>
 <p><strong>We do not collect any personal information.</strong> The App has no account system, no network requests, no third-party SDKs, no ads, and no analytics or tracking. Specifically:</p>
 <ul>
   <li><strong>No registration</strong>: we do not collect your name, email, phone number, or any identity information.</li>
-  <li><strong>No network connectivity</strong>: all puzzles ship with the app; it works fully offline and never sends data to any server.</li>
-  <li><strong>No tracking or ads</strong>: no advertising identifier (IDFA), no cross-app tracking, no analytics or ad SDKs.</li>
+  <li><strong>No network connectivity</strong>: all 950 puzzles ship with the app; it works fully offline and never sends data to any server.</li>
+  <li><strong>No tracking or ads</strong>: no advertising identifier (IDFA), no cross-app tracking, no analytics or ad SDKs, and no access to device identifiers or IP addresses.</li>
 </ul>
 
 <h2>2. Data Stored on Your Device</h2>
-<p>To keep track of your progress, the App stores a small amount of data locally, which <strong>never leaves your device</strong>:</p>
+<p>To keep track of your progress, the App stores a small amount of data locally, which <strong>is never uploaded by the App and never leaves your device</strong>:</p>
 <ul>
   <li><strong>Progress</strong>: earned stars, unlock progress and completion marks, so you can resume and see what you've finished.</li>
-  <li><strong>Daily challenge</strong>: your best time, streak and completion count for the "Tonight's Fireflies" daily puzzle.</li>
-  <li><strong>Preferences</strong>: theme (Night / Dusk), sound on/off, and the hometown name you optionally enter on first launch.</li>
+  <li><strong>Daily challenge</strong>: your best time, streak and completion count for the "Tonight's Firefly" daily puzzle.</li>
+  <li><strong>Preferences</strong>: theme (Nightfall / Dusk), sound on/off, haptics on/off, and the hometown name you voluntarily enter on first launch. The hometown is just a piece of text used for in-game storytelling; we never use it to infer your real location.</li>
 </ul>
-<p>This data is saved using system-provided local storage (UserDefaults) and is used only within the App. Uninstalling the App removes all of it.</p>
+<p>This data is saved using system-provided local storage (UserDefaults) and is used only within the App. <strong>It is retained only for as long as you keep the App installed</strong>: you can clear stars and unlocks at any time via Settings &rarr; Reset Progress, change preferences in Settings, and uninstalling the App removes all of it. We hold no cloud copy and cannot restore it for you.</p>
 
 <h2>3. Crash Diagnostics</h2>
-<p>The App <strong>integrates no third-party crash or analytics SDK</strong> and does not actively collect crash logs or device information. Apple may provide developers with anonymous, system-level crash statistics based on your device's "Analytics & Improvements" settings. Such data is aggregated by Apple, and the App cannot access your personal information from it.</p>
+<p>The App <strong>integrates no third-party crash or analytics SDK</strong> and does not actively collect crash logs or device information. Apple may provide developers with anonymous, system-level crash statistics based on your device's "Analytics & Improvements" settings. Such data is aggregated by Apple, and the App cannot access your personal information from it. You can disable sharing at any time in iOS Settings &rarr; Privacy & Security &amp; Analytics &amp; Improvements.</p>
 
 <h2>4. Children's Privacy</h2>
-<p>The App is a quiet, single-player logic puzzle suitable for all ages, including children. We do not collect personal information from any user, do not show ads, and do not track anyone. We comply with applicable children's privacy laws (such as COPPA and China's regulations on children's personal information protection).</p>
+<p>The App is a quiet, single-player logic puzzle suitable for all ages, but it is <strong>not directed specifically at children</strong> and has no child-oriented accounts or social features. We do not collect personal information from any user, do not show ads, do not track anyone, and include no in-app purchases. We comply with applicable children's privacy laws, including COPPA in the United States, the GDPR provisions on children's consent (GDPR-K) in the EU, and China's regulations on children's personal information protection.</p>
 
-<h2>5. Third-Party Services</h2>
-<p>The App integrates no third-party SDKs, ad platforms, social login, payment, or analytics services, and contains no external links or network content.</p>
+<h2>5. Third-Party Services and Actions You Initiate</h2>
+<p>The App integrates no third-party SDKs, ad platforms, social login, payment, or analytics services, and does not automatically access any online content. Two system features are <strong>initiated by you</strong> and worth clarifying:</p>
+<ul>
+  <li><strong>Sharing</strong>: the Share button on the results screen opens the iOS system share sheet. You decide whether to share and with whom; the image is generated on your device, and we neither handle nor retain it.</li>
+  <li><strong>Feedback</strong>: "Send Feedback" in Settings opens the system mail app. You decide whether to send the email; we do not automatically read or collect its contents.</li>
+</ul>
+<p>Apart from these actions that you initiate, the App passes no data to any third party.</p>
 
-<h2>6. Permissions & Deep Links</h2>
-<p>The App requests no camera, microphone, location, contacts, or notification permissions. It supports the <code>glimmerwood://</code> deep link solely for in-app navigation (for example, opening a level from a share card); no data is transmitted.</p>
+<h2>6. Your Rights and Legal Basis</h2>
+<p>Because we collect no personal data, there is no processing activity for which we act as controller, and therefore no need to rely on consent or any other legal basis. Data stored on your device is fully under your control: you can view, change, and delete it within the App (see Section 2), and uninstalling the App deletes all of it. If you would like help with your local data, or believe your rights have been affected, contact us using the address in Section 10. You also have the right to lodge a complaint with the data protection authority in your country or region.</p>
 
-<h2>7. Changes to This Policy</h2>
-<p>If the App's functionality changes in a way that affects data handling, we will update this policy with a new effective date. Under the current version, we collect no data.</p>
+<h2>7. Data Transfers, Profiling and Automated Decisions</h2>
+<p>Local data is not uploaded, not transferred across borders, and not shared with any third party. We do not profile users, make automated decisions, or target ads, and no decision with legal or similarly significant effect is made about you by automated means.</p>
 
-<h2>8. Contact</h2>
-<p>For questions about this policy, please contact us at <a href="mailto:revenlvxin@gmail.com">revenlvxin@gmail.com</a>.</p>
+<h2>8. Permissions &amp; Deep Links</h2>
+<p>The App requests no camera, microphone, location, contacts, photo library, or notification permissions. It supports the <code>glimmerwood://</code> deep link solely for in-app navigation (for example, opening a level from a share card); no data is transmitted.</p>
+
+<h2>9. Changes to This Policy</h2>
+<p>If the App's functionality changes in a way that affects data handling, we will update this policy with a new effective date. Under the current version, we collect no data. This policy is provided in Simplified Chinese, English, Spanish and French with identical meaning; if the language versions differ in interpretation, the English version prevails.</p>
+
+<h2>10. Contact</h2>
+<p>Data controller: individual developer Xin Lv (GitHub: qingmulang). For questions about this policy or your data, contact us at <a href="mailto:revenlvxin@gmail.com">revenlvxin@gmail.com</a>. Support pages: <a href="support.html">English</a> / <a href="support-zh.html">简体中文</a>.</p>
 </section>
+
+<!-- ============ Español ============ -->
+<section class="lang" id="es" lang="es">
+<h1>Glimmerwood · Política de Privacidad</h1>
+<p class="meta">Entrada en vigor: 21 de noviembre de 2026 · Última actualización: 23 de noviembre de 2026 · Versión 1.1</p>
+
+<p>«Glimmerwood» (la «Aplicación») es ofrecida por el desarrollador individual Xin Lv (GitHub: qingmulang), que actúa asimismo como responsable del tratamiento de los datos conforme a esta política. Nos tomamos muy en serio tu privacidad. En resumen: <strong>la Aplicación no recopila, no transmite ni comparte ningún dato personal y no necesita conexión a Internet. Todos los datos permanecen únicamente en tu dispositivo.</strong></p>
+
+<h2>1. Información que recopilamos</h2>
+<p><strong>No recopilamos ninguna información personal.</strong> La Aplicación no tiene cuentas, no realiza solicitudes de red, no incluye SDK de terceros, no muestra publicidad y no incorpora análisis ni seguimiento. En concreto:</p>
+<ul>
+  <li><strong>Sin registro</strong>: no recopilamos tu nombre, correo electrónico, número de teléfono ni ningún dato de identidad.</li>
+  <li><strong>Sin conexión a Internet</strong>: los 950 acertijos se incluyen en la propia Aplicación; funciona completamente sin conexión y nunca envía datos a ningún servidor.</li>
+  <li><strong>Sin seguimiento ni publicidad</strong>: no utilizamos identificadores publicitarios (IDFA), no hacemos seguimiento entre aplicaciones, no integramos SDK de análisis o publicidad y no accedemos a identificadores del dispositivo ni a direcciones IP.</li>
+</ul>
+
+<h2>2. Datos guardados en tu dispositivo</h2>
+<p>Para conservar tu progreso, la Aplicación guarda localmente una pequeña cantidad de datos que <strong>la Aplicación nunca sube y que nunca salen de tu dispositivo</strong>:</p>
+<ul>
+  <li><strong>Progreso</strong>: estrellas conseguidas, nivel de desbloqueo y marcas de finalización, para que puedas continuar y ver lo que ya has completado.</li>
+  <li><strong>Desafío diario</strong>: tu mejor tiempo, tu racha y el número de veces completado en el acertijo diario «La Luciérnaga de Esta Noche».</li>
+  <li><strong>Preferencias</strong>: tema (Noche / Atardecer), sonido activado o no, respuesta háptica activada o no y el nombre de tu tierra natal que introduces voluntariamente al iniciar por primera vez. Ese nombre es solo un texto para la narración del juego; nunca lo utilizamos para inferir tu ubicación real.</li>
+</ul>
+<p>Estos datos se guardan mediante el almacenamiento local del sistema (UserDefaults) y se usan exclusivamente dentro de la Aplicación. <strong>Se conservan únicamente mientras mantengas la Aplicación instalada</strong>: puedes borrar estrellas y desbloqueos en «Ajustes &rarr; Restablecer progreso», modificar tus preferencias cuando quieras y, al desinstalar la Aplicación, el sistema elimina todos los datos. No guardamos ninguna copia en la nube y no podemos restaurarlos por ti.</p>
+
+<h2>3. Diagnóstico de fallos</h2>
+<p>La Aplicación <strong>no integra ningún SDK de terceros para fallos o análisis</strong> y no recopila activamente registros de errores ni información del dispositivo. Apple puede facilitar a los desarrolladores estadísticas anónimas de fallos a nivel del sistema, según la configuración «Análisis y mejoras» de tu dispositivo. Estos datos son agregados por Apple y la Aplicación no puede acceder a tu información personal a través de ellos. Puedes desactivar el uso compartido en cualquier momento en «Ajustes &rarr; Privacidad y seguridad &rarr; Análisis y mejoras» de iOS.</p>
+
+<h2>4. Privacidad de los menores</h2>
+<p>La Aplicación es un acertijo lógico tranquilo para un solo jugador, apto para todas las edades, pero <strong>no está dirigida específicamente a menores</strong> y no incluye cuentas ni funciones sociales orientadas a ellos. No recopilamos información personal de ningún usuario, no mostramos publicidad, no hacemos seguimiento y no incluimos compras dentro de la aplicación. Cumplimos la normativa aplicable de protección de menores, incluida la COPPA estadounidense, las disposiciones del RGPD sobre el consentimiento de los menores (RGPD-K) en la UE y la normativa china sobre protección de la información personal de menores.</p>
+
+<h2>5. Servicios de terceros y acciones que tú inicias</h2>
+<p>La Aplicación no integra SDK de terceros, plataformas publicitarias, inicio de sesión social, pagos ni servicios de análisis, y no accede automáticamente a ningún contenido en línea. Conviene aclarar dos funciones del sistema que <strong>tú inicias voluntariamente</strong>:</p>
+<ul>
+  <li><strong>Compartir</strong>: el botón «Compartir» de la pantalla de resultados abre la hoja de compartir del sistema de iOS. Tú decides si compartes y con quién; la imagen se genera en tu dispositivo y nosotros no la tratamos ni la conservamos.</li>
+  <li><strong>Enviar comentarios</strong>: «Enviar comentarios» en Ajustes abre la aplicación de correo del sistema. Tú decides si envías el mensaje; nosotros no leemos ni recopilamos automáticamente su contenido.</li>
+</ul>
+<p>Aparte de estas acciones iniciadas por ti, la Aplicación no entrega ningún dato a terceros.</p>
+
+<h2>6. Tus derechos y base jurídica</h2>
+<p>Como no recopilamos datos personales, no existe ninguna actividad de tratamiento de la que seamos responsables y, por tanto, no necesitamos basarnos en el consentimiento ni en otra base jurídica. Los datos guardados en tu dispositivo están plenamente bajo tu control: puedes consultarlos, modificarlos y eliminarlos desde la propia Aplicación (véase la sección 2), y desinstalarla supone eliminarlos todos. Si necesitas ayuda con tus datos locales o consideras que tus derechos se han visto afectados, escríbenos a la dirección de la sección 10. También tienes derecho a presentar una reclamación ante la autoridad de protección de datos de tu país o región.</p>
+
+<h2>7. Transferencias, elaboración de perfiles y decisiones automatizadas</h2>
+<p>Los datos locales no se suben, no se transfieren fuera de tu país y no se comparten con terceros. No elaboramos perfiles de usuario, no tomamos decisiones automatizadas ni hacemos publicidad segmentada, y ninguna decisión con efectos jurídicos o similares se adopta sobre ti por medios automáticos.</p>
+
+<h2>8. Permisos y enlaces profundos</h2>
+<p>La Aplicación no solicita permisos de cámara, micrófono, ubicación, contactos, fototeca ni notificaciones. Admite el enlace profundo <code>glimmerwood://</code> únicamente para la navegación interna (por ejemplo, abrir un nivel desde una tarjeta compartida); no implica ninguna transmisión de datos.</p>
+
+<h2>9. Cambios en esta política</h2>
+<p>Si en el futuro las funciones de la Aplicación cambiaran y ello afectara al tratamiento de datos, actualizaremos esta política indicando una nueva fecha de entrada en vigor. En la versión actual no recopilamos ningún dato. Esta política se ofrece en chino simplificado, inglés, español y francés con el mismo contenido; si hubiera diferencias de interpretación entre versiones, prevalecerá la versión en inglés.</p>
+
+<h2>10. Contacto</h2>
+<p>Responsable del tratamiento: desarrollador individual Xin Lv (GitHub: qingmulang). Para cualquier consulta sobre esta política o sobre tus datos, escríbenos a <a href="mailto:revenlvxin@gmail.com">revenlvxin@gmail.com</a>. Páginas de soporte: <a href="support.html">English</a> / <a href="support-zh.html">简体中文</a>.</p>
+</section>
+
+<!-- ============ Français ============ -->
+<section class="lang" id="fr" lang="fr">
+<h1>Glimmerwood · Politique de Confidentialité</h1>
+<p class="meta">En vigueur le : 21 novembre 2026 · Dernière mise à jour : 23 novembre 2026 · Version 1.1</p>
+
+<p>« Glimmerwood » (l'« Application ») est proposée par le développeur individuel Xin Lv (GitHub : qingmulang), qui est également le responsable du traitement des données au sens de la présente politique. Nous attachons une grande importance à votre vie privée. En résumé : <strong>l'Application ne collecte, ne transmet et ne partage aucune donnée personnelle, et ne nécessite aucune connexion Internet. Toutes les données restent localement sur votre appareil.</strong></p>
+
+<h2>1. Informations que nous collectons</h2>
+<p><strong>Nous ne collectons aucune information personnelle.</strong> L'Application ne comporte ni compte utilisateur, ni requête réseau, ni SDK tiers, ni publicité, ni outil d'analyse ou de suivi. Plus précisément :</p>
+<ul>
+  <li><strong>Aucune inscription</strong> : nous ne collectons ni votre nom, ni votre adresse e-mail, ni votre numéro de téléphone, ni aucune donnée d'identité.</li>
+  <li><strong>Aucune connexion réseau</strong> : les 950 énigmes sont fournies avec l'Application ; elle fonctionne entièrement hors ligne et n'envoie jamais de données à un serveur.</li>
+  <li><strong>Aucun suivi ni publicité</strong> : aucun identifiant publicitaire (IDFA), aucun suivi inter-applications, aucun SDK d'analyse ou publicitaire, et aucun accès aux identifiants de l'appareil ou aux adresses IP.</li>
+</ul>
+
+<h2>2. Données conservées sur votre appareil</h2>
+<p>Pour mémoriser votre progression, l'Application conserve localement un petit volume de données qui <strong>ne sont jamais téléversées par l'Application et ne quittent jamais votre appareil</strong> :</p>
+<ul>
+  <li><strong>Progression</strong> : étoiles obtenues, déblocages et marques de fin de niveau, afin de reprendre la partie et de visualiser ce qui est terminé.</li>
+  <li><strong>Défi quotidien</strong> : votre meilleur temps, votre série et le nombre de parties terminées pour l'énigme quotidienne « La Luciole de ce soir ».</li>
+  <li><strong>Préférences</strong> : thème (Nuit / Crépuscule), sons activés ou non, retours haptiques activés ou non, ainsi que le nom de votre région natale que vous saisissez volontairement au premier lancement. Ce nom n'est qu'un texte servant à la narration du jeu ; nous ne l'utilisons jamais pour déduire votre position réelle.</li>
+</ul>
+<p>Ces données sont enregistrées via le stockage local fourni par le système (UserDefaults) et servent uniquement au fonctionnement de l'Application. <strong>Elles sont conservées uniquement tant que l'Application reste installée</strong> : vous pouvez effacer étoiles et déblocages à tout moment dans « Réglages &rarr; Réinitialiser la progression », modifier vos préférences quand vous le souhaitez, et la désinstallation supprime l'ensemble des données. Nous ne détenons aucune copie dans le cloud et ne pouvons pas les restaurer pour vous.</p>
+
+<h2>3. Diagnostic des plantages</h2>
+<p>L'Application <strong>n'intègre aucun SDK tiers de plantage ou d'analyse</strong> et ne collecte pas activement de journaux d'erreur ni d'informations sur l'appareil. Apple peut fournir aux développeurs des statistiques anonymes de plantage au niveau du système, selon le réglage « Analyses et améliorations » de votre appareil. Ces données sont agrégées par Apple et l'Application ne peut en tirer aucune information personnelle vous concernant. Vous pouvez désactiver ce partage à tout moment dans iOS « Réglages &rarr; Confidentialité et sécurité &rarr; Analyses et améliorations ».</p>
+
+<h2>4. Confidentialité des enfants</h2>
+<p>L'Application est un casse-tête logique calme et solo, adapté à tous les âges, mais elle <strong>n'est pas spécifiquement destinée aux enfants</strong> et ne propose ni compte ni fonction sociale qui leur soit destinée. Nous ne collectons d'informations personnelles sur aucun utilisateur, n'affichons aucune publicité, n'effectuons aucun suivi et ne proposons aucun achat intégré. Nous respectons les réglementations applicables en matière de protection des enfants, notamment la COPPA américaine, les dispositions du RGPD relatives au consentement des enfants (RGPD-K) dans l'UE et la réglementation chinoise sur la protection des informations personnelles des mineurs.</p>
+
+<h2>5. Services tiers et actions que vous initiez</h2>
+<p>L'Application n'intègre aucun SDK tiers, plateforme publicitaire, connexion sociale, paiement ou service d'analyse, et n'accède automatiquement à aucun contenu en ligne. Deux fonctions du système <strong>initiées par vous</strong> méritent une précision :</p>
+<ul>
+  <li><strong>Partage</strong> : le bouton « Partager » de l'écran de résultats ouvre la feuille de partage du système iOS. Vous décidez de partager ou non, et avec qui ; l'image est générée sur votre appareil et nous ne la traitons ni ne la conservons.</li>
+  <li><strong>Commentaires</strong> : « Envoyer des commentaires » dans les Réglages ouvre l'application Mail du système. Vous décidez d'envoyer ou non le message ; nous n'en lisons ni n'en collectons automatiquement le contenu.</li>
+</ul>
+<p>En dehors de ces actions que vous initiez, l'Application ne transmet aucune donnée à un tiers.</p>
+
+<h2>6. Vos droits et base légale</h2>
+<p>Comme nous ne collectons aucune donnée personnelle, il n'existe aucun traitement dont nous serions responsables et, par conséquent, nul besoin de nous appuyer sur le consentement ou sur une autre base légale. Les données conservées sur votre appareil sont entièrement sous votre contrôle : vous pouvez les consulter, les modifier et les supprimer depuis l'Application (voir section 2), et la désinstallation les efface toutes. Si vous souhaitez une aide concernant vos données locales, ou si vous estimez que vos droits ont été affectés, contactez-nous à l'adresse indiquée à la section 10. Vous disposez également du droit d'introduire une réclamation auprès de l'autorité de protection des données de votre pays ou région.</p>
+
+<h2>7. Transferts, profilage et décisions automatisées</h2>
+<p>Les données locales ne sont pas téléversées, ne font l'objet d'aucun transfert transfrontalier et ne sont partagées avec aucun tiers. Nous ne pratiquons ni profilage, ni décision automatisée, ni ciblage publicitaire, et aucune décision produisant des effets juridiques ou similaires n'est prise à votre égard par des moyens automatisés.</p>
+
+<h2>8. Autorisations et liens profonds</h2>
+<p>L'Application ne demande aucune autorisation d'appareil photo, de microphone, de localisation, de contacts, de photothèque ou de notifications. Elle prend en charge le lien profond <code>glimmerwood://</code> uniquement pour la navigation interne (par exemple, ouvrir un niveau depuis une carte partagée) ; aucune donnée n'est transmise.</p>
+
+<h2>9. Modifications de la présente politique</h2>
+<p>Si les fonctionnalités de l'Application évoluent d'une manière qui modifie le traitement des données, nous mettrons à jour la présente politique en indiquant une nouvelle date d'entrée en vigueur. Dans la version actuelle, nous ne collectons aucune donnée. Cette politique est fournie en chinois simplifié, en anglais, en espagnol et en français avec un contenu identique ; en cas de divergence d'interprétation entre les versions, la version anglaise prévaut.</p>
+
+<h2>10. Nous contacter</h2>
+<p>Responsable du traitement : développeur individuel Xin Lv (GitHub : qingmulang). Pour toute question relative à cette politique ou à vos données, écrivez-nous à <a href="mailto:revenlvxin@gmail.com">revenlvxin@gmail.com</a>. Pages d'assistance : <a href="support.html">English</a> / <a href="support-zh.html">简体中文</a>.</p>
+</section>
+
+<footer class="note">© 2026 Xin Lv · Glimmerwood / 萤火密林 · Version 1.1</footer>
 
 </div>
 </body>
